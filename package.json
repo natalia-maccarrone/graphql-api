@@ -1,0 +1,30 @@
+{
+	"name": "puzzle",
+	"version": "1.0.0",
+	"description": "Puzzle challenge",
+	"main": "index.js",
+	"scripts": {
+		"start": "node dist/index.js",
+		"dev": "nodemon dist/index.js"
+	},
+	"author": "Natalia Maccarrone",
+	"license": "ISC",
+	"dependencies": {
+		"apollo-server": "^2.17.0",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"graphql": "^15.3.0",
+		"jsonwebtoken": "^8.5.1",
+		"mysql2": "^2.1.0",
+		"reflect-metadata": "^0.1.13",
+		"typeorm": "^0.2.25"
+	},
+	"devDependencies": {
+		"@types/node": "^14.6.4",
+		"nodemon": "^2.0.4",
+		"typescript": "^4.0.2"
+	},
+	"engines": {
+		"node": "13.12.0"
+	}
+}
